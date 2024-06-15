@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Co-working Space Booking</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>
+      Co-working Space Booking
+    </h1>
+  <div class="booking-container">
+    
+    <div class="desk-type">
+      <h2>Individual Desks (10 available)</h2>
+      <select id="individual-desk">
+        <option value="basic">Basic ($10/hour)</option>
+        <option value="premium">Premium ($15/hour)</option>
+        <option value="executive">Executive ($20/hour)</option>
+      </select>
+    </div>
+    
+    <div class="desk-type">
+      <h2>Team Collaboration Desks (5 available)</h2>
+      <p>Flat rate of $25/hour</p>
+    </div>
+  </div>
+  <div >
+    <div class="booking-details">
+      <h3>Booking Details</h3>
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+      <label for="start-time">Start Time:</label>
+      <input type="time" id="start-time" required>
+      <label for="end-time">End Time:</label>
+      <input type="time" id="end-time" required>
+      <button id="book-desk">Book Desk</button>
+      <p id="booking-message"></p>
+    </div>
+  </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
