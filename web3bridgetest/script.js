@@ -30,3 +30,4 @@ bookDeskButton.addEventListener('click', function() {
      } else {
     hourPrice = individualDeskPrices[deskType];
      }
+});
